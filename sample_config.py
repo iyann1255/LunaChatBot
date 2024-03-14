@@ -3,9 +3,9 @@ HEROKU = True # Make it False if you're not deploying on heroku.
 if HEROKU:
     from os import environ
 
-    bot_token = environ["6526097069:AAEWQPVW9Wa9DRITUZYOUg2mCmrrAdVOEuc"]
-    ARQ_API_KEY = environ["https://arq.hamker.in"]
-    LANGUAGE = environ["Indonesia"]
+    bot_token = environ["bot_token"]
+    ARQ_API_KEY = environ["nase_token"]
+    LANGUAGE = environ["league"]
 
 # NOTE Fill this if you are not deploying on heroku.
 if not HEROKU:
